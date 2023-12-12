@@ -49,6 +49,13 @@
   font-weight: 500;
 }
 
+.header__image {
+  display: flex;
+  height: 646px;
+  width: 568px;
+  margin: 124px 0 0 5px;
+}
+
 .header__description {
   max-width: 683px;
   font-size: 20px;
@@ -57,8 +64,13 @@
 }
 
 .header__span-accent {
+  font-family: "Noto Serif";
+  font-style: italic;
+  font-weight: normal;
+  font-size: 60px;
+  line-height: 72px;
+  color: #2f80ed;
   display: block;
-  color: blue;
 }
 
 .header__footer {
