@@ -8,6 +8,7 @@
 }
 
 .header {
+  position: relative;
   padding: 30px 80px 40px;
   min-height: 720px;
   max-height: 800px;
@@ -41,6 +42,7 @@
 }
 
 .header__title {
+  position: relative;
   min-width: 729px;
   font-size: 60px;
   line-height: 72px;
@@ -51,9 +53,11 @@
 
 .header__image {
   display: flex;
-  height: 646px;
   width: 568px;
   margin: 124px 0 0 5px;
+  position: absolute;
+  right: 110px;
+  top: 20px;
 }
 
 .header__description {
