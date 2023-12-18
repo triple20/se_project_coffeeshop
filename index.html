@@ -16,9 +16,14 @@
       href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&family=Noto+Serif:ital@0;1&display=swap"
       rel="stylesheet"
     />
+    <link rel="icon" type="image/x-icon" href="favicon.ico" />
+    <title>Coffee Shop</title>
   </head>
   <body>
     <div class="page">
+      <main class="content">
+        <section class="recipes"></section>
+      </main>
       <header class="header">
         <nav class="nav">
           <img
@@ -86,6 +91,42 @@
         <section class="reservation" id="reservation"></section>
         <section class="menu" id="menu"></section>
         <section class="about" id="contacts"></section>
+        <section class="reservation">
+          <h2 class="reservation__title">Book a table</h2>
+          <form action="" class="reservation__form form">
+            <fieldset class="form__fieldset">
+              <label for="" class="form__label"> Name* </label>
+              <input
+                type="text"
+                class="form__input"
+                id="name"
+                placeholder="Name Surname"
+              />
+              <label for="" class="form__label"> Number of guests* </label>
+              <input
+                type="text"
+                class="form__input"
+                id="number-of-guests"
+                name="number of guest"
+                placeholder="1-8"
+              />
+              <label for="" class="form__label"> Date & time* </label>
+              <input type="datetime-local" class="form__input" />
+              <label for="" class="form__label"> Your email* </label>
+              <input
+                type="email"
+                class="form__input"
+                id="your-email"
+                placeholder="email@email.com"
+              />
+            </fieldset>
+            <button class="form__button">Book a table</button>
+            <label for="" class="form__label form__label_type_checkbox">
+              <input type="checkbox" class="form__checkbox" />
+              I agree with the trams of use
+            </label>
+          </form>
+        </section>
       </main>
       <footer class="footer"></footer>
     </div>
