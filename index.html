@@ -20,9 +20,6 @@
   </head>
   <body>
     <div class="page">
-      <main class="content">
-        <section class="recipes"></section>
-      </main>
       <header class="header">
         <nav class="nav">
           <img
@@ -87,21 +84,20 @@
             <p class="recipes__video-caption">Franch press recipe</p>
           </div>
         </section>
-        <section class="reservation" id="reservation"></section>
         <section class="menu" id="menu"></section>
         <section class="about" id="contacts"></section>
-        <section class="reservation">
+        <section class="reservation" id="reservation">
           <h2 class="reservation__title">Book a table</h2>
           <form class="reservation__form form">
             <fieldset class="form__fieldset">
-              <label for="" class="form__label"> Name* </label>
+              <label class="form__label"> Name* </label>
               <input
                 type="text"
                 class="form__input"
                 id="name"
                 placeholder="Name Surname"
               />
-              <label for="" class="form__label"> Number of guests* </label>
+              <label class="form__label"> Number of guests* </label>
               <input
                 type="text"
                 class="form__input"
@@ -109,9 +105,9 @@
                 name="number of guest"
                 placeholder="1-8"
               />
-              <label for="" class="form__label"> Date & time* </label>
+              <label class="form__label"> Date & time* </label>
               <input type="datetime-local" class="form__input" />
-              <label for="" class="form__label"> Your email* </label>
+              <label class="form__label"> Your email* </label>
               <input
                 type="email"
                 class="form__input"
@@ -120,7 +116,7 @@
               />
             </fieldset>
             <button class="form__button">Book a table</button>
-            <label for="" class="form__label form__label_type_checkbox">
+            <label class="form__label form__label_type_checkbox">
               <input type="checkbox" class="form__checkbox" />
               I agree with the trams of use
             </label>
