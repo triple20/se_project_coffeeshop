@@ -1,0 +1,4 @@
+
+cd /c/Users/sazza/OneDrive/Desktop/se_project_coffeeshop
+
+/c/Users/sazza/OneDrive/Desktop/se_project_coffeeshop/se_project_coffeeshop
