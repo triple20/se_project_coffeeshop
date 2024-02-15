@@ -18,7 +18,7 @@
   position: relative;
   overflow: hidden;
   z-index: 0;
-  padding: 100px, 80px, 173px 80px;
+  padding: 100px 80px 173px 80px;
   display: flex;
   justify-content: space-between;
 }
