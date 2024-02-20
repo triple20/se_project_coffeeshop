@@ -11,8 +11,6 @@
     <link rel="icon" type="image/x-icon" href="./favicon.ico" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
       href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&family=Noto+Serif:ital@0;1&display=swap"
       rel="stylesheet"
@@ -30,9 +28,9 @@
           />
           <ul class="nav__links">
             <li><a href="#recipes" class="nav__link">Recipes</a></li>
-            <li><a href="#reservation" class="nav__link">Book a table</a></li>
+            <li><a href="#book-a-table" class="nav__link">Book a table</a></li>
             <li><a href="#menu" class="nav__link">Menu</a></li>
-            <li><a href="#about" class="nav__link">Contacts</a></li>
+            <li><a href="#contacts" class="nav__link">Contacts</a></li>
           </ul>
         </nav>
         <h1 class="header__title">
@@ -96,11 +94,12 @@
         </section>
         <section class="reservation" id="reservation">
           <h2 class="reservation__title">Book a table</h2>
-          <form action="reservation" class="reservation__form form">
+          <form class="form reservation__form">
             <fieldset class="form__fieldset">
               <label for="name" class="form__label"
                 >Name *
                 <input
+                  required
                   type="text"
                   class="form__input"
                   placeholder="Name Surname"
@@ -110,6 +109,7 @@
               <label for="number_of_guests" class="form__label"
                 >Number of guests *
                 <input
+                  required
                   type="number"
                   class="form__input"
                   placeholder="1-8"
@@ -119,6 +119,7 @@
               <label for="Date&time" class="form__label"
                 >Date & time *
                 <input
+                  required
                   type="datetime-local"
                   class="form__input"
                   id="Date&time"
@@ -127,6 +128,7 @@
               <label for="email" class="form__label"
                 >Your email *
                 <input
+                  required
                   type="email"
                   class="form__input"
                   placeholder="email@email.com"
@@ -215,18 +217,18 @@
           </ul>
         </section>
         <section class="about" id="about">
-          <h2 class="about_title">About the coffee shop</h2>
-          <div class="about_circle"></div>
-          <div class="about_circle about_circle_animation_blurred"></div>
-          <div class="about_content">
-            <p class="about_paragraph">
+          <h2 class="about__title">About the coffee shop</h2>
+          <div class="about__circle"></div>
+          <div class="about__circle about__circle_animation_blurred"></div>
+          <div class="about__content">
+            <p class="about__paragraph">
               Our coffee shop is located in the Triple packs Library. It feature
               6 tables and free Wifi.
             </p>
-            <p class="about_pragraph">
+            <p class="about__paragraph">
               Our main mission is keeping guests cozy and energized.
             </p>
-            <p calss="about_paragraph">
+            <p class="about__paragraph">
               Besides that, we try tok reduce out enviromental impact - so we
               don't sell single-ude cups. But you can buy one of our reusable
               cups!
@@ -235,33 +237,34 @@
         </section>
       </main>
       <footer class="footer">
-        <div class="footer_content">
+        <div class="footer__content">
           <img
-            class="footer_logo"
+            class="footer__logo"
             src="./images/logo_coffeeshop_light.svg"
             alt="Triple Peaks Espresso"
           />
-          <ul class="footer_list">
-            <h3 class="footer_social-heading">Social media</h3>
-            <li class="footer_list-item">
+
+          <ul class="footer__list">
+            <h3 class="footer__social-heading">Social media</h3>
+            <li class="footer__list-item">
               <img
-                class="footer_social-icon"
+                class="footer__social-icon"
                 src="./images/facebook_white.svg"
                 alt="facebook"
               />
-              <p class="footer_social-link">Facebook</p>
+              <p class="footer__social-link">Facebook</p>
             </li>
-            <li class="footer_list-item">
+            <li class="footer__list-item">
               <img
-                class="footer_social-icon"
+                class="footer__social-icon"
                 src="./images/instagram_white.svg"
                 alt="instagram"
               />
-              <p class="footer_social-link">instagram</p>
+              <p class="footer__social-link">instagram</p>
             </li>
           </ul>
         </div>
-        <p class="footer_copyright">2024 Sajjad Hossain</p>
+        <p class="footer__copyright">&copy;2024 Sajjad Hossain</p>
       </footer>
     </div>
   </body>

@@ -13,6 +13,16 @@
   background-position: center;
   background-size: cover;
 }
+
+.header__paragraph {
+  margin: 0;
+  font-family: "Inter", Arial, sans-serif;
+  color: #838383;
+  font-size: 16px;
+  line-height: 20px;
+  font-weight: 500;
+}
+
 .header__title {
   max-width: 729px;
   font-size: 60px;

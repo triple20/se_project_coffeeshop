@@ -31,12 +31,15 @@
 
 .form__input {
   display: block;
-  padding: 0;
+  padding: 8px;
   box-sizing: border-box;
   width: 100%;
   margin-top: 8px;
   border-radius: 4px;
   height: 60px;
+  border: 1px solid;
+  font-size: 20px;
+  line-height: 20px;
 }
 
 .form__button {
