@@ -45,10 +45,9 @@
 }
 
 .footer__social-icon {
-  font-size: 16px;
+  font-size: 6px;
   line-height: 20px;
   opacity: 100%;
-  transition: color 0.4s ease-in-out;
   color: #fff;
   font-style: normal;
   align-items: center;
@@ -58,9 +57,11 @@
   text-decoration: none;
 }
 
+.footer__social-icon:hover {
+  transition: color 0.4s ease-in-out;
+}
+
 .footer__social-link {
-  width: 16px;
-  height: 16px;
   margin-right: 10px;
   color: #fff;
 }
