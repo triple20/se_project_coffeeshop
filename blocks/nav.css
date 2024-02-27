@@ -23,7 +23,7 @@
 }
 
 .nav__link:hover {
-  color: black;
+  color: #838383;
   text-decoration: none;
   transition: color 0.4s ease-in-out;
 }

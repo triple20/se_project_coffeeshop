@@ -20,7 +20,6 @@
   font-family: "inter", Arial, sans-serif;
   font-style: normal;
   font-weight: bold;
-  justify-content: end;
   margin: 0;
   color: #fff;
   font-size: 16px;
@@ -55,19 +54,20 @@
   font-family: "Inter", Arial, sans-serif;
   font-weight: normal;
   text-decoration: none;
+  margin-right: 10px;
 }
 
-.footer__social-icon:hover {
-  transition: color 0.4s ease-in-out;
+.footer__social-icon {
+  color: #c1c1c1;
 }
 
 .footer__social-link {
-  margin-right: 10px;
   color: #fff;
+  display: flex;
 }
 
 .footer__social-link:hover {
-  color: #c1c1c1;
+  transition: color 0.4s ease-in-out;
 }
 
 .footer__copyright {

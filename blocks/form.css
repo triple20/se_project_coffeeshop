@@ -54,9 +54,10 @@
   font-size: 16px;
   line-height: 20px;
   border-radius: 4px;
+  transition: opacity 1s;
+  border: 0;
 }
 
 .form__button:hover {
   opacity: 70%;
-  transition: opacity 1s;
 }
