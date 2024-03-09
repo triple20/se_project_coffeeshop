@@ -62,6 +62,7 @@
   line-height: 20px;
   color: #838383;
   bottom: 40px;
+  align-items: flex-end;
 }
 
 .header__image {
@@ -70,4 +71,5 @@
   height: 568px;
   right: 5px;
   top: 124px;
+  z-index: -1;
 }
