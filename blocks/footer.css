@@ -58,7 +58,9 @@
 }
 
 .footer__social-icon {
-  color: #c1c1c1;
+  width: 16px;
+  height: 16px;
+  margin-right: 10px;
 }
 
 .footer__social-link {
@@ -68,7 +70,7 @@
 }
 
 .footer__social-link:hover {
-  transition: color 0.4s ease-in-out;
+  color: #c1c1c1;
 }
 
 .footer__copyright {
